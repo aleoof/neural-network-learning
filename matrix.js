@@ -12,4 +12,9 @@ class Matrix {
             this.data.push((arr));
         }
     }
+
+    static add(A,B){
+        var matrix = new Matrix(A.rows, B.cols)
+        console.log(matrix)
+    }
 }
